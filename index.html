@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css">
+  <head>
+    <h1 id="title">PHEBSOFT</h1>
+  </head>
+  <body>
+    <p id="description">Thanks for giving us your precious time</p>
+    <form id="survey-form">
+      <div class="input-element">
+    <label id="name-label">Name: <input id="name" type="text" placeholder="Enter your Name" required>
+    </div>
+    <div class="input-element">
+   <label id="email-label">Email: <input id="email" type="email" placeholder="Enter your Email" required>
+   </div>
+   <div class="input-element">
+    <label id="number-label">Age: <input id="number" type="number" min="18" max="40" placeholder="Age"required>
+    </div>
+<div class="input-element">
+    <label id="select-label">
+      From where you have heard about us</label>
+      <select id="dropdown">
+        <option>select option</option>
+        <option>Online</option>
+        <option>From a friend</option>
+      </select>
+    </div>
+    <div>
+     <div> <label>Do you have any experience of work before</label>
+      </div>
+     <div> <label><input type="radio" name="name" value="yes">Yes</label> </div>
+   <div> <label><input type="radio" name="name" value="yes">No</label></div>
+   </div>
+<div>
+     <div> <label>From where you have heard about us?</label>
+      </div>
+     <div> <label><input type="checkbox" name="name" value="online">Online</label> </div>
+   <div> <label><input type="checkbox" name="name" value="online">From a friend</label></div>
+   </div>
+   <div class="input-element">
+     <label>Additional Comments</label>
+     <textarea type="text"></textarea>
+     </div>
+     <div>
+       <button id="submit" type="submit">
+         Submit
+         </button>
